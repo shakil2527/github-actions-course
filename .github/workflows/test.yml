@@ -30,7 +30,7 @@ jobs:
       run: npm ci
       working-directory: Code/02 Basics/03 Finished Project
     - name: Build project
-      run: npm build
+      run: npm run build
       working-directory: Code/02 Basics/03 Finished Project
     - name: Deploy code
       run: echo "Deploying..."
