@@ -6,4 +6,4 @@ jobs:
    steps:
     - name: Output the information
       run: |
-        echo "${{ toJSON(github) }}" 
+        echo '${{ toJSON(github) }}'
